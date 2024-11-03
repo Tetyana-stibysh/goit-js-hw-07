@@ -1,0 +1,40 @@
+/* #region task-4 */
+.task-4 {
+  max-width: 408px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.task-4 button {
+  margin-top: 16px;
+  background: #4e75ff;
+  color: #ffffff;
+  min-width: 86px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}
+.task-4 button:hover,
+.task-4 button:focus {
+  background-color: #6c8cff;
+}
+
+.task-4 input {
+  max-width: 360px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+/* #endregion task-4 */

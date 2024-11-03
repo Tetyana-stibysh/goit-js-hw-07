@@ -1,0 +1,55 @@
+/* #region task-6 */
+.task-6 {
+  max-width: 534px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+.task-6 div {
+  background-color: #f6f6fe;
+  padding: 32px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.first-div {
+  display: flex;
+  gap: 16px;
+}
+.first-div input {
+  width: 150px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+.first-div button {
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.blu-btn {
+  background-color: #4e75ff;
+}
+.blu-btn:hover,
+.blu-btn:focus {
+  background-color: #6c8cff;
+}
+.red-btn {
+  background-color: #ff4e4e;
+}
+.red-btn:hover,
+.red-btn:focus {
+  background-color: #ff7070;
+}
+
+.second-div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 44px;
+}
+/* #endregion task-6 */

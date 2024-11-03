@@ -6,26 +6,21 @@ const secondDiv = document.querySelector("#boxes");
 inputVl.addEventListener("input", handlerInput);
 createBt.addEventListener("click", handlerCreate);
 destroyBt.addEventListener("click", handlerDestroy);
-// createBt.addEventListener("click", handlerReset);
-// function handlerReset(event) {
-//   console.log(inputVl.event);
-// }
 
 function handlerCreate(event) {
   secondDiv.innerHTML = "";
   if (valueInp >= 1 && valueInp <= 100) {
-    let amBx = 0;
-    amBx = createBoxes(valueInp);
+    let amountBoxes = 0;
+    amountBoxes = createBoxes(valueInp);
     inputVl.value = "";
     console.log(inputVl.value);
-    // inputVl.reset();
-    return amBx;
+
+    return amountBoxes;
   }
 }
 let valueInp;
 function handlerInput(event) {
   valueInp = event.currentTarget.value;
-  //   console.log(inputVl);
 
   return valueInp;
 }

@@ -1,0 +1,32 @@
+/* #region task-5 */
+.task-5 {
+  max-width: 345px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 88px;
+}
+.widget p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+.widget button {
+  background: #4e75ff;
+  color: #ffffff;
+  min-width: 148px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}
+.widget button:hover,
+.widget button:focus {
+  background-color: #6c8cff;
+}
+
+/* #endregion task-5 */
